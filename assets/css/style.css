@@ -1,0 +1,114 @@
+:root {
+    --background-color: #782221;
+    --background-title-color: #dbc2a4;
+    --background-address-color: #2c1d27;
+}
+
+body {
+    width: 1160px;
+}
+
+header {
+    background-color: var(--background-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    background-color: var(--background-title-color);
+}
+
+address {
+    background-color: var(--background-address-color);
+    height: 120px;
+    width: 1160px;
+    display: flex;
+    align-items: center;
+}
+
+address a:link {
+    color: white;
+    text-decoration: none;
+}
+
+address a:visited {
+    color: white;
+}
+
+.div__address {
+    height: 100%;
+    width: 20%;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div__mail {
+    height: 100%;
+    width: 60%;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div__phone_number {
+    height: 100%;
+    width: 20%;
+}
+
+.phone_number {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure {
+    height: 150px;
+    width: 150px;
+}
+
+.figure__portrait {
+    height: 100%;
+    width: 100%;
+}
+
+.about_me {
+    background-color: var(--background-color);
+}
+
+.about_me p {
+    color: white;
+}
+
+.spoken_languages {
+    background-color: var(--background-color);
+}
+
+.spoken_languages ul {
+    color: white;
+}
+
+.center_of_interest {
+    background-color: var(--background-color);
+}
+
+.center_of_interest ul {
+    color: white;
+}
+
+footer a {
+    background-color: black;
+}
