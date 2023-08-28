@@ -110,9 +110,9 @@ address a:hover {
 }
 
 .about_me h2 {
+    box-sizing: border-box;
     background-color: var(--background-title-color);
-    height: 30px;
-    width: 85%;
+    width: 91%;
     font-family: "lato", serif;
     line-height: 1.5;
     padding-left: 20px;
@@ -126,8 +126,9 @@ address a:hover {
 }
 
 .about_me__about_text {
+    box-sizing: border-box;
     color: white;
-    width: 85%;
+    width: 91%;
     font-family: "raleway";
     font-size: var(--font-size-text);
     text-align: justify;
@@ -162,6 +163,7 @@ address a:hover {
 }
 
 .resume {
+    box-sizing: border-box;
     grid-column: 4 / 11;
     border-right: 2px solid black;
     margin-left: 30px;
@@ -169,8 +171,9 @@ address a:hover {
 
 .resume h2 {
     background-color: var(--background-title-color);
+    box-sizing: border-box;
     height: 30px;
-    width: 95%;
+    width: 97%;
     font-family: "lato", serif;
     line-height: 1.7;
     font-size: var(--font-size-h2);
