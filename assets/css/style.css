@@ -181,6 +181,7 @@ address a:hover {
     position: relative
 }
 
+/* le :before permet de mettre la couleur rouge avant les titre h2 de la section "resume" */
 .resume h2:before {
     background-color: var(--background-color);
     content: "";
@@ -201,6 +202,7 @@ address a:hover {
     transition: all 0.4s ease;
 }
 
+/* Les :after et :hover:after permet de mettre la couleur rouge lors du survole de la souris */
 .resume__professional_experiences__first_experience:after {
     background-color: var(--background-color);
     content: "";
